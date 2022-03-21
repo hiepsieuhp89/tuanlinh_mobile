@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 
 INSERT INTO `admin` (`maadmin`, `hoten`, `tendangnhap`, `matkhau`, `dienthoai`, `email`, `ngaysinh`) VALUES
 (1, 'Nguyễn Tuấn Cảnh', 'canh', '1234', '0969710904', 'tuancanh278@gmail.com', NULL),
-(2, 'Nguyễn Anh Tuấn', 'atuan', '1234', '098775443', 'anhtuan@gmail.com', NULL),
+(2, 'Nguyễn Tuấn Linh', 'atuan', '1234', '098775443', 'anhtuan@gmail.com', NULL),
 (3, 'Nguyễn Văn A', 'vana', '1234', '0989521469', 'vana@gmail.com', NULL);
 
 -- --------------------------------------------------------

@@ -69,7 +69,7 @@ include("../KETNOI/ketnoi.php");
     <!----- <div id="colorchanger"><a href="dashboard.html"><span class="bluetheme">Blue Theme</span></a> </div>----> 
   </div>
   <!--LOGO-->
-  <div class="grid_8" id="logo">Quản lí website Anh Tuấn Mobile</div>
+  <div class="grid_8" id="logo">Quản lí website Tuấn Linh Mobile</div>
   <div class="grid_8"> 
     <!-- USER TOOLS START -->
     <div id="user_tools"><span><a href="#" class="mail">(1)</a> Welcome <a href="#">
