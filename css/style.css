@@ -1,0 +1,595 @@
+/* CSS Document */
+
+
+	* {
+	margin: 0;
+	padding: 0
+}
+body {
+	width: 100%;
+	height: auto;
+	margin: auto 5px;
+	padding: 0;
+	background: -webkit-linear-gradient(#eeeeee, #fff); 
+  background: -o-linear-gradient(#eeeeee, #fff);
+  background: -moz-linear-gradient(#eeeeee, #fff);
+  background: linear-gradient(#eeeeee, #fff);
+}
+/*Phần main*/
+#main {
+	width: 1000px;
+	height: auto;
+	padding: 0px;
+	margin: auto;
+	background:#fff;
+}
+/*Phần banner*/
+#banner {
+	
+	width: 1000px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	
+	display: block;
+	overflow: hidden;
+}
+/*Phần menu*/
+#menu {
+	width: 1000px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	overflow: hidden;
+	background: #DF2121;
+	border-radius: 2px;
+}
+#main_center {
+	width: 1000px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	overflow: hidden;
+}
+/*Phần left*/
+#left {
+	width: 200px;
+	height:auto;
+	margin:0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	float: left;
+	
+}
+#main_right {
+	width: 800px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	float: right;
+}
+/*Phần center*/
+#center {
+	width: 600px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+#right {
+	width: 200px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	float: right;
+}
+/**/
+/*Phần like facebook*/
+.like {
+	float: left;
+	position: fixed;
+}
+.fb-like {
+	width: auto;
+	height: auto;
+	margin: 200px 10px auto 0;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+/*-------------------------------------css phan left---------------------------------*/
+
+.menu_doc {
+	width: 200px;
+	height: auto;
+	margin:0px;
+}
+.menu_doc h3 {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	background: #a80000;
+	text-transform: uppercase;
+	color: #fff;
+}
+.menu_doc ul {
+	width: 200px;
+	height: auto;
+	padding-left: 0px;
+	margin:0 0 10px 0;
+}
+.menu_doc ul li {
+	width: 200px;
+	height: 28px;
+	line-height: 27px;
+	background: #fafafa;
+	border-bottom: 1px dotted #cdcdcd;
+	list-style: none;
+	padding-left: 0;
+}
+.menu_doc ul li:hover {
+	background: #fff;
+	cursor: pointer;
+}
+.menu_doc ul li:hover a {
+	color: #468AEF;
+	text-decoration: underline;
+}
+.menu_doc ul li a {
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555555;
+	text-decoration: none;
+	text-tranform: capitalize;
+	padding-left: 20px;
+}
+.menu_doc ul li:hover span {
+	color: #468AEF;
+}
+
+.gia{
+	margin:auto;
+	padding:5px;
+	width:186px;
+	height:auto;
+	display:block;
+	overflow:hidden;
+	border:1px #999999 solid;
+	line-height:40px;
+}
+/*--------------css menu-------------------------------*/
+	#menu {
+	width: 1000px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	overflow: hidden;
+	background: #DF2121;
+	border-radius: 2px;
+}
+#menu ul {
+	width: 100%;
+	height: 50px;
+}
+#menu ul li {
+	float: left;
+	width: auto;
+	height: 50px;
+	list-style: none;
+	padding: 0px 20px;
+	line-height: 50px;
+	border-left: 1px solid #999;
+}
+#menu ul li:hover {
+	/*background:url(../hinh_anh/top-menu-bg.gif) top left repeat-x;*/
+	cursor: pointer;
+}
+#menu ul li a {
+	font-family: arial;
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	text-tranform: capitalize;
+	font-weight: bold;
+}
+#menu ul li:hover a {
+	font-size: 15px;
+}
+#tim_kiem {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	float: right;
+	margin: 12px 70px 0 0;
+}
+#tim {
+	height: 25px;
+	border: none;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	background:url(../menu/top-search-l.gif) top left no-repeat;
+	padding-left: 5px;
+}
+#timkiem {
+	margin-top:0px;
+	background:url(../menu/tim.jpg) center left no-repeat;
+	height: 27px;
+	width: 96px;
+	margin-left: 10px;
+	border: none;
+	color: #FFF;
+	border-radius: 5px;
+	border: 0.5px solid #00F;
+}
+#timkiem:hover {
+	background:url(../menu/tim_hove.jpg);
+	
+}
+
+/*-------------css noidung-------------------------*/
+#center {
+	width: 600px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+ #noidung {
+	width: 600px;
+	height: auto;
+	margin: 2px auto;
+	padding: 0;
+	float: left;
+}
+
+.noi_dung_chinh {
+	width: 600px;
+	height: auto;
+	margin:-15px auto;
+	padding: 0;
+	float: left;
+}
+.cat_title {
+	width: 250px;
+	height: 30px;
+	margin: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+.cat_title h3{
+	line-height: 29px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-transform: uppercase;
+	background: url(../center/module-top.png) center left repeat-x;
+	padding-left: 20px;
+	}
+.list_products {
+	overflow: hidden;
+	width: 598px;
+	height: auto;
+	border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+	border-bottom: 1px solid #cdcdcd;
+	border-top: 1px solid #cdcdcd;
+}
+.hang1 {
+	margin: auto;
+}
+.hang2 {
+	margin: 5px auto;
+}
+.sanpham {
+	width: 180px;
+	height: auto;
+	float: left;
+	margin: 0 8.5px;
+	border: 1px solid #fff;
+}
+.sanpham:hover {
+	border: #56ac27 solid 1px;
+}
+.name {
+	width: 149.5px;
+	height: 18px;
+	text-align: center;
+	padding: 0px 0px;
+	margin: auto;
+	overflow: hidden;
+}
+.img, .price {
+	width: 149.5px;
+	height: auto;
+	text-align: center;
+	padding: 10px 0px;
+	margin: auto;
+}
+.name a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.price {
+	font-weight: normal;
+	color: #ff6600;/*text-decoration: line-through;*/
+}
+.price_sale{
+	color:#333;
+	text-decoration:line-through;
+	}
+.conlai{
+	font-weight: normal;
+	color: #ff6600;
+	font-weight: bold;
+	}	
+.price span {
+	font-weight: bold;
+	
+}
+.sale{
+	float: right;
+	padding: 1px 5px;
+	margin: 5px 0 0 5px;
+	background: #d4232b;
+	color: #fff;
+}
+.btnban {
+	width: 70px;
+	height: 30px;
+	margin: 10px auto;
+	padding: 0;
+	border-radius: 5px;
+	background:#ADD8E6;
+}
+#ban {
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	background:#ADD8E6;
+}
+#ban:hover {
+	color: #FFF;
+	background: #3d80eb;
+	cursor: pointer;
+}
+/*-------------------phan trang---------------------------------*/
+.phantrang {
+	text-align: center;
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.phantrang a {
+	
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #006633;
+}
+.phantrang .tranghientai {
+	color: #006666;
+	background-color: #FFFF99;
+}
+
+/*-------------------------css right-----------------------------------*/
+.right{
+			margin:0 auto;
+			padding:0;
+			width:200px;
+			height:auto;
+			overflow:hidden;
+			display:block;
+			float:right;}
+		/*bắt đầu đang nhập*/
+.account{
+	width:198px;
+	height:auto;
+	margin:10px 0 0 10px;
+	display:block;
+	overflow:hidden;
+	float:right;
+	border:#666 1px solid;
+	border-radius:5px;
+	line-height:5px;}
+#tendn{
+	margin:10px 10px 10px 10px;
+	padding-left:5px;
+	float:left;
+	border-radius:5px;
+	height:25px;}
+#pass{
+	margin:10px 10px 10px 10px;
+	padding-left:5px;
+	float:left;
+	border-radius:5px;
+	height:25px;}
+	
+#dangnhap{
+	width:70px;
+	height:30px;
+	margin:10px 34px 10px 10px;
+	padding-left:0;
+	float:right;
+	border-radius:5px;
+	}
+#dangnhap:hover{
+	background:#3d80eb;
+	color:#FFF;}
+#taomoi{
+	width:55px;
+	height:30px;
+	margin:10px 10px 10px 10px;
+	padding-left:0;
+	float:left;
+	border-radius:5px;
+	}
+#taomoi:hover{
+	background:#3d80eb;
+	color:#FFF;}
+.quen{
+	clear:both;
+	margin:10px auto;
+	padding-left:40px;}
+.quen a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	text-decoration:none;
+	color:#333;}
+.quen:hover a{
+	text-decoration:underline;
+	cursor:pointer;
+	color:#03F;}
+.thongbao{
+	width:100%;
+	height:auto;
+	line-height:30px;
+	color: #ab249a;;
+	font: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+.chao{
+	width:180px;
+	height:auto;
+	line-height:30px;
+	color:red;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	
+	}
+#thoat{
+	width:70px;
+	height:30px;
+	margin:10px 34px 10px 10px;
+	padding-left:0;
+	float:right;
+	border-radius:5px;
+	}
+#thoat:hover{
+	background:#3d80eb;
+	color:#FFF;}
+
+/*kết thúc đăng nhập*/
+/*Giỏ hàng*/
+	.giohang{
+		width:200px;
+		height:auto;
+		margin:auto;
+		}
+	.giohang ul{
+		width:100%;
+		height:auto;
+		}
+		.giohang ul li{
+			width:200px;
+			height:55px;
+			line-height:55px;
+			background:#a80000;
+			list-style:none;}
+	.giohang a{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px;
+		color:#FFF;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding:30px;
+		}
+		.giohang #tien{
+			text-align:center;
+			border:1px solid #CCC;
+			color:#F3F;
+			line-height:20px;
+			height:auto;
+			width:198px;
+			}
+		/*kết thúc giỏ hàng*/
+		/*bắt đầu sản phẩm bán chạy*/
+		.banchay{
+	width:100%;
+	height:auto;
+	margin-top:230px;
+	
+	clear:both; 
+	}
+	.banchay h3 {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	background: #a80000;
+	text-transform: uppercase;
+	color: #fff;
+}
+#btntim{
+	width:70px;
+	height:30px;
+	margin:10px;
+	border-radius:5px;
+	float:right;
+	padding:0;
+	text-align:center
+	}
+#btntim:hover {
+	color:#fff;
+	background:#3d80eb;}
+
+
+
+
+/*Phần foodter*/
+
+#foodter{
+	margin:10px auto;
+	padding:0;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	clear:both;
+	display:block;
+	background:#565656;}
+#foodter p{
+	margin-top:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:20px;}
+#foodter span{
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	color:#fff;
+	float:left;
+	padding-right:10px;}
